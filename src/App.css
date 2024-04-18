@@ -1,0 +1,187 @@
+.layout{
+    height: 100vh;
+    max-width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;    
+    position: relative;  
+    height: 10vh;
+
+    &> ul{
+        position: fixed;
+        top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15PX;
+        padding: 3px 16px;
+        font-size: 14px;
+    }
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 18px;
+}
+
+ul > li {
+    display: flex;
+    list-style-type: none;
+    text-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 300;
+}
+
+ul > li > span {
+    font-size: 2px;
+}
+
+
+
+.Introduccion{
+    
+
+    & > picture {
+        display: flex;
+        align-items: center;
+    }
+    & > picture > img {
+        border-radius: 100px;
+        margin-right: 16px;
+    }
+
+    & > h1{
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 10px;
+
+    }
+
+
+    & > p{
+        text-wrap: balance;
+        max-width: 500px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    & > p > span{
+        color: #f77b2e;
+    }
+
+    & > ul > li{
+        border: 1px solid black;
+        padding: 6px;
+        border-radius: 16px;
+        font-size: 16px;
+        width: 150px;
+        text-align: center;
+    }
+   
+}
+
+
+main {
+    & > h2{
+        font-size: 28px;
+    }
+
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 0;
+    gap: 16px;
+    
+    & > picture > img {
+        width: 300px;
+        height: 275px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+
+
+    & > div{
+        text-align: start;
+        max-width: 500px;
+
+    }
+    
+
+    & > div > button {
+        margin: 5px 10px;
+        border: 1px solid black;
+        padding: 10px 16px;
+        border-radius: 10px;
+        background: #000;
+        font-size: medium;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    & > div > h3 {
+        margin: 5px 10px;
+        text-wrap: balance;
+    }
+
+    & > div > ul {
+        margin: 5px 10px 16px;
+        text-wrap: balance;
+    }
+
+    & > div > p {
+        margin: 5px 10px;
+        text-wrap: balance;
+        max-width: 75%;
+        font-weight: 300;
+    }
+
+}
+
+
+.label {
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
+    
+}
+
+footer{
+    & > h2{
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    & > p {
+        text-wrap: balance;
+        max-width: 75%;
+        margin-top: 16px;
+        font-weight: 200;
+    }
+
+
+}
+
