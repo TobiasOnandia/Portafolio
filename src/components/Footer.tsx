@@ -1,9 +1,7 @@
 import { Resume } from "../svg/iconsSvg"
 import "./Footer.css"
-import { useInView } from 'react-intersection-observer';
 
 export const Footer = () =>{
-  
 
   return(
       <footer>
