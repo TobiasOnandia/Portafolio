@@ -1,4 +1,5 @@
 import { GitHub, Preview } from "../svg/iconsSvg"
+import "./Article.css"
 
 export const Article = () => {
     return(
@@ -21,13 +22,14 @@ export const Article = () => {
   
           <button>
           <span><GitHub /></span>
-            
-            Code</button>
+            Code
+          </button>
+ 
           <button>
             <span><Preview /></span>
             Preview</button>
-        
         </div>
+ 
         </article>
     )
 }

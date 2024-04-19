@@ -1,0 +1,10 @@
+main {
+    margin-top: 80px;
+    & > h2{
+        font-size: 28px;
+    }
+
+}
+h2 > span {
+    margin-right: 16px;
+}

@@ -1,9 +1,16 @@
 import { Work } from "../svg/iconsSvg"
 import { Article } from "./Article"
+import { useInView } from 'react-intersection-observer';
+
+import "./Main.css"
 
 export const Main = () =>{
-    return(
-        <main>
+    
+
+
+
+  return(
+        <main >
         <h2>
          <span>
            <Work />

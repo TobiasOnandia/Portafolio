@@ -1,0 +1,70 @@
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 0;
+    gap: 16px;
+    
+    & > picture > img {
+        width: 300px;
+        height: 275px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+
+
+    & > div{
+        text-align: start;
+        max-width: 500px;
+
+    }
+    
+
+    & > div > button {
+        margin: 5px 10px;
+        border: 1px solid black;
+        padding: 6px 14px;
+        border-radius: 10px;
+        background: #000;
+        font-size: medium;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    & > div > h3 {
+        margin: 5px 10px;
+        text-wrap: balance;
+    }
+
+    & > div > ul {
+        margin: 5px 10px 16px;
+        text-wrap: balance;
+    }
+
+    & > div > p {
+        margin: 5px 10px;
+        text-wrap: balance;
+        max-width: 75%;
+        font-weight: 300;
+    }
+
+}
+
+
+button:hover{
+    background: #fff;
+    color: #000;
+}
+
+
+.label {
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
+    
+}

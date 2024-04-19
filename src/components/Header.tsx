@@ -1,11 +1,12 @@
 import { Email, LinkedIn } from "../svg/iconsSvg"
+import "./Header.css"
 
 export const Header = () => {
-    return(
+  
+  return(
         <header>
         <nav>
           <ul>
-            <li>Experiencia</li>
             <li>Proyectos</li>
             <li>Sobre mi</li>
             <li>Contacto</li>
