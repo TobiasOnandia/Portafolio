@@ -4,7 +4,7 @@ import "./Footer.css"
 export const Footer = () =>{
 
   return(
-      <footer>
+      <footer id="sobre-mi">
       <h2>
         <span>
           <Resume />

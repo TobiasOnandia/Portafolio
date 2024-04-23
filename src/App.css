@@ -1,8 +1,8 @@
 .layout{
     height: 100vh;
-    max-width: 70%;
+    max-width: 100vh;
     margin: 0 auto;
-    flex-direction: column;
+
     font-family: "Onest", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;

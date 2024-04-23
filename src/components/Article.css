@@ -51,7 +51,9 @@ article{
     }
 
 }
-
+button{
+    transition: all 0.5s ease-out;
+}
 
 button:hover{
     background: #fff;

@@ -1,15 +1,49 @@
+import { useState } from "react"
 import { Email, LinkedIn } from "../svg/iconsSvg"
 import "./Header.css"
 
 export const Header = () => {
   
+  const navBar = [
+    {
+      text: 'Inicio',
+      label: 'inicio',
+      url: '/#inicio',
+      },
+    {
+    text: 'Proyectos',
+    label: 'proyectos',
+    url: '/#proyectos',
+    },
+    {
+      text: 'Sobre mi',
+      label:'sobre-mi',
+      url: '/#sobre-mi',
+
+    },
+    {
+      text: 'Contacto',
+      label: 'contacto',
+      url: 'email:tobiasonandia0@gmail.com',
+    }
+]
+
+
+
+
   return(
-        <header>
+        <header id="inicio">
         <nav>
           <ul>
-            <li>Proyectos</li>
-            <li>Sobre mi</li>
-            <li>Contacto</li>
+           {
+            navBar.map(item => {
+              return(
+                <li key={item.label}>
+                  <a href={item.url}>{item.text}</a>
+                </li>
+              )
+            })
+           }
           </ul>
         </nav>
 
@@ -21,7 +55,7 @@ export const Header = () => {
           
          
          
-          <h1>Hey, soy Tobias Onandia</h1>
+          <h1>Hola, soy Tobias Onandia</h1>
           <p>
             <span>Desarrolador Full-stack </span> de La Pampa, Argentina.
             Especializado en el desarrolo de aplicaciones web
@@ -30,12 +64,12 @@ export const Header = () => {
           <ul>
             <li>
             <span><Email /></span>  
-              Contactame
+              <a href="">Contactame</a>
             
             </li>
             <li>
             <span><LinkedIn /></span>
-              LinkedIn
+              <a href="">LinkedIn</a>
             </li>
           </ul>
         </section>

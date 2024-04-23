@@ -8,20 +8,14 @@ nav {
 
     &> ul{
         position: fixed;
-        top: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        top: 0px;
         border-radius: 15PX;
-        padding: 3px 16px;
-        font-size: 14px;
+        padding: 5px 20px;
+        font-size: 17px;
         cursor: pointer;
-        background-color: rgba(131, 130, 130, 0.247);
+        background-color: rgba(255, 255, 255, 0.397);
     }
 
-        &> ul > li:hover{
-            color: #f77b2e;
-        }
 
 
 }
@@ -51,8 +45,8 @@ ul > li > span {
 
 
 .Introduccion{
-    height:  45vh;
-    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
 
     & > picture {
         display: flex;
@@ -84,12 +78,27 @@ ul > li > span {
     }
 
     & > ul > li{
-        border: 1px solid black;
         padding: 6px;
         border-radius: 16px;
         font-size: 16px;
         width: 150px;
+        font-weight: 400;
         text-align: center;
+        cursor: pointer;
     }
    
+ 
+ 
+
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover{
+    color: #f77b2e;
+}
+

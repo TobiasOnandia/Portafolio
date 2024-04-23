@@ -1,6 +1,6 @@
 footer{
-    margin-top: 58px;
-
+    margin-top: 20vh ;
+    height: 30vh;
     & > h2{
         font-size: 28px;
         font-weight: bold;
