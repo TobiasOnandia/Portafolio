@@ -19,6 +19,9 @@ export const Footer = () =>{
         Algunos de mis logros fueron integrar software .
         En realizar los contactos para realizar pasantias a distintas universidades.
       </p>
+      <picture>
+        <img src="" alt="" />
+      </picture>
     </footer>
     )
 }

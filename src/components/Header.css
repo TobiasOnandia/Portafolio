@@ -55,6 +55,8 @@ ul > li > span {
     & > picture > img {
         border-radius: 100px;
         margin-right: 16px;
+        width: 95px;
+        object-fit: c;
     }
 
     & > h1{

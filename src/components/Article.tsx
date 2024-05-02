@@ -18,16 +18,18 @@ export const Article = () => {
   
   
   
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A labore doloremque in sunt aspernatur? Fuga, amet! Qui enim quasi aut aspernatur! Eos mollitia nostrum cum ea architecto. Vero, sapiente ipsam!</p>
+          <p>
+           La aplicación está diseñada para funcionar como un e-commerce completo, permitiendo a los usuarios navegar por productos, agregarlos al carrito de compras,gestionar pedidos e iniciar sesion.
+          </p>
   
-          <button>
+          <a href="https://github.com/TobiasOnandia/e-commerce" target="_blank" >
           <span><GitHub /></span>
             Code
-          </button>
+          </a>
  
-          <button>
+          <a href=" " target="_blank">
             <span><Preview /></span>
-            Preview</button>
+            Preview</a>
         </div>
  
         </article>

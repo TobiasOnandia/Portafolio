@@ -1,5 +1,6 @@
-import { useState } from "react"
 import { Email, LinkedIn } from "../svg/iconsSvg"
+import Tobiasonandia from "../../public/Foto cv Tobias Onandia.png"
+
 import "./Header.css"
 
 export const Header = () => {
@@ -49,7 +50,7 @@ export const Header = () => {
 
         <section className='Introduccion'>
           <picture>
-            <img src="https://randomuser.me/api/portraits/med/men/21.jpg" alt="Foto perfil de Tobias Onandia" />
+            <img src={Tobiasonandia} alt="Foto perfil de Tobias Onandia" />
              <span>Disponible para trabajar</span>
           </picture>
           
@@ -64,12 +65,12 @@ export const Header = () => {
           <ul>
             <li>
             <span><Email /></span>  
-              <a href="">Contactame</a>
+              <a href="mailto:tobiasonandia0@gmail.com" target="_blank">Contactame</a>
             
             </li>
             <li>
             <span><LinkedIn /></span>
-              <a href="">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/tobi-onandia-b89396252/" target="_blank">LinkedIn</a>
             </li>
           </ul>
         </section>
