@@ -1,11 +1,13 @@
 import { GitHub, Preview } from "../svg/iconsSvg"
+import ImgEcommerce from "../../public/Foto de ecommerce.png"
+
 import "./Article.css"
 
 export const Article = () => {
     return(
         <article id="proyectos">
-        <picture>
-          <img src="https://img.freepik.com/vector-gratis/companeros-piso-comenzando-proyecto-empresarial_23-2148857003.jpg?w=900&t=st=1713464152~exp=1713464752~hmac=e8d5865e51619cefa7205af08c263124c47d9c759661b0483a153a9a762f0437" alt="" />
+        <picture >
+          <img className="imgEcommerce" src={ImgEcommerce} alt="Foto sobre el inicio de una tienda online creado por Tobias Onandia" />
         </picture>
         
         <div>
